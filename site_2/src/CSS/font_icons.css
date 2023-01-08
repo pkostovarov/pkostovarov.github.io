@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?mls4ei');
+  src:  url('../fonts/icomoon.eot?mls4ei#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?mls4ei') format('truetype'),
+    url('../fonts/icomoon.woff?mls4ei') format('woff'),
+    url('../fonts/icomoon.svg?mls4ei#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-amazon:before {
+  content: "\e900";
+  color: #f90;
+}
+.icon-chase:before {
+  content: "\e901";
+  color: #117aca;
+}
+.icon-googlechrome:before {
+  content: "\e902";
+  color: #4285f4;
+}
+.icon-prometheus:before {
+  content: "\e903";
+  color: #e6522c;
+}
+.icon-tencentqq:before {
+  content: "\e904";
+  color: #eb1923;
+}
+.icon-twitter:before {
+  content: "\e905";
+  color: #1da1f2;
+}
+.icon-xbox:before {
+  content: "\e906";
+  color: #107c10;
+}

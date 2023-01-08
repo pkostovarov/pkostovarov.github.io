@@ -1,0 +1,28 @@
+@import './block/header';
+@import './block/promo';
+@import './block/work';
+@import './block/mobile';
+@import './block/car';
+@import './block/terms';
+@import './block/map';
+@import './block/footer';
+/* block */
+
+@import './media/media';
+
+
+
+
+@import './btn/btn';
+@import './mixin/mixin';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+     width: 100%;
+     max-width: 1200px;
+     margin: 0 auto;
+}
+

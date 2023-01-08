@@ -1,0 +1,39 @@
+.car{
+    &_box {
+        height: 500px;
+        background: url(../img/pictures/car/head.png);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    &_text {
+        @include header_text ;
+        margin: 30px auto 20px;
+        color: white;
+    }
+    &_suptext {
+        @include supheader_text ;
+        margin: 20px auto 60px;
+        color: aliceblue;
+    }
+    & img {
+        width:  750px;
+        height:  450px;
+        margin: -32px auto;
+    }
+    &_footer {
+        height: 400px;
+        background: url(../img/pictures/car/sup.png);
+        display: flex;
+        flex-direction: column;
+    
+    }
+    &_ft_text {
+        margin: 220px auto 140px;
+        color: #222222;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+    }
+}

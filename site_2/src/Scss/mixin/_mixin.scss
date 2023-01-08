@@ -1,0 +1,71 @@
+@mixin header_text {    
+    margin: 40px auto 40px ;
+	font-family: Roboto;
+	color: #222222 ;
+	font-size: 38px ;
+	font-weight: 700 ;
+	line-height: 48px ;
+	text-align: center ;
+	text-transform: uppercase ;
+}
+
+@mixin supheader_text {
+	margin-bottom: 32px ;
+	color: #222222 ;
+	font-size: 17px ;
+	font-weight: 400 ;
+	line-height: 21px ;
+	text-align: center ;	
+}
+
+
+@mixin btn{
+    display: block;
+	margin: 71px auto 0;
+	color: #ffffff;
+	width: 120px;
+	height: 30px;
+	background-color: #000000;	
+	font-size: 12px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 20px;
+&:hover {
+	color: brown;
+}
+}
+
+@mixin red_style {
+	color: #ff5656;
+    margin-bottom: 25px;
+    font-family: "Roboto - Regular";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@mixin li_red {
+		color: #222222;
+		list-style-type: none;
+		padding-left: 50px;        
+		margin-bottom: 10px;
+		font-family: "Roboto - Light";
+		font-weight: 300;
+		line-height: 24px;
+		font-size: 17px;
+		&:before {
+			content: '';
+			display: inline-block;
+			vertical-align: middle;
+			transform: translate( -33px , -2px);
+			width: 21px;
+			height: 20px;
+			background: url(/src/img/icon/terms/red.png) center center/cover no-repeat;
+		
+	}
+
+}
+

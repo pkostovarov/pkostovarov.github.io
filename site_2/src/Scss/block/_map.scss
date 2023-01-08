@@ -1,0 +1,44 @@
+.map {
+    display: flex;
+    background: url(../img/pictures/map/map.png) center (center/cover) no-repeat;
+    height: 717px; 
+
+    &_btn {
+        @include btn ;
+        border-radius: 0;
+        margin: 50px auto 0;
+        color: black;
+        width: 76px;
+        height: 24px;
+        background-color: #ffffff;
+
+    }
+    &_header {
+        @include header_text ;
+        margin: 40px auto 20px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 38px;
+        font-weight: 700;
+    }
+    &_supheader {
+        @include supheader_text;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 17px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 21px;
+    }
+    &_ftr {
+        margin: 480px auto 50px;
+        color: #1fbad6;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        
+
+    }
+}

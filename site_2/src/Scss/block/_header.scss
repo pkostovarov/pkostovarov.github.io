@@ -1,0 +1,86 @@
+.header {
+    background-color: #212121;
+   
+    &_nav {
+        height: 50px ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 13px 70px ;
+        margin: 0 ;
+        list-style-type: none ;
+
+ 
+	}
+    &_link {
+        color: #ffffff ;
+		font-size: 15px ;
+		font-weight: 900 ;
+		text-decoration: none;
+        padding-right: 28px;
+    
+     
+    }
+    &_menu {
+        border-right: 2px dotted white ;
+        &:nth-child(6) {
+            border-right: none;
+        }
+    }
+    .hamburger {
+        display: none;
+    }
+    .supheader {
+        position: absolute ;
+        width: 100% ;
+        height: 84px ;
+        background-color: rgba(0, 0, 0, 0.6); 
+        &_logo {
+            display: block ;
+            margin-top: 5px ;
+            color: #ffffff ;
+            font-size: 25px ;
+            font-weight: 300 ;
+            text-decoration: none ;
+            text-transform: uppercase ;
+            text-align: right ;
+        &:hover {
+            color: bisque;
+            text-decoration: none;
+        }
+        }
+        &_number{
+            display: block ;
+            margin-top: 8px ;
+            line-height: 12px ;
+            font-size: 22px ;
+            color: #ffff ;
+            text-decoration: none ;
+            text-transform: uppercase ;
+            text-align: right ; 
+       &:hover {
+            color: #ffffff ;
+       }	
+        };
+        &_of{
+            margin-top: -21px ;
+            opacity: 0.5 ;
+            color: #ffffff ;
+            font-size: 13px; 
+            font-weight: 300 ;
+            text-align: right ;
+        }
+        &_call {
+            color: #ffffff ;
+            margin-top: 16px ;
+            font-size: 12px ;
+            font-weight: 600 ;
+            text-transform: uppercase ;
+            text-align: right;
+        }
+    .xs-visible {
+        display: none;
+    }
+    }
+
+}
